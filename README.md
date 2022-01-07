@@ -1,2 +1,1 @@
-# css-study
-css for interactive web
+# interaction-study

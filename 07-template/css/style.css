@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html, body {
+	height: 100%;
+}
+.all {
+	width: fit-content;
+	margin: 30px auto;
+}
+.wrap {
+	width: fit-content;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	align-items: center;
+}
+.person1 {
+	background-color: #ebfaff;
+}
+.person2 {
+	background-color: #f1ebff;
+}
+.person3 {
+	background-color: #f5ffeb;
+}
+section {
+	width: 300px;
+	padding: 20px;
+	margin: 40px;
+	background-color: #fff;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+section .menu {
+	width: 100%;
+}
+section .menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+section .menu a {
+	font-size: 20px;
+	color: #666;
+}
+section .menu a:nth-of-type(1) {
+	float: left;
+}
+section .menu a:nth-of-type(2) {
+	float: right;
+}
+section .profile {
+	width: 100%;
+	text-align: center;
+}
+section .profile img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	/*box-shadow: 5px 5px 5px;*/
+}
+.profile h1 {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1;
+	color: #555;
+	margin-bottom: 5px;
+}
+.profile h2 {
+	font-weight: normal;
+	font-size: 12px;
+	color: #bbb;
+	margin-bottom: 30px;
+}
+.view {
+	cursor: pointer;
+	width: 180px;
+	height: 30px;
+	margin: 0px auto 20px;
+	background-color: #444;
+	border-radius: 16px;
+	font-weight: bold;
+	font-size: 10px;
+	color: #fff;
+	line-height: 32px;
+	text-align: center;
+}
+.contact {
+	margin-bottom: 25px;
+}
+.contact li {
+	width: 100%;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.contact li:last-child {
+	border-bottom: none;
+}
+.contact li i {
+	width: 20%;
+	text-align: center;
+	color: #555;
+	font-size: 15px;
+}
+.contact li span {
+	font-size: 11px;
+	color: #555;
+}
